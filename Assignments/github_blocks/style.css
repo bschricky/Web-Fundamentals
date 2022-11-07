@@ -1,0 +1,35 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+img.octocat {
+    height: 200px;
+}
+.container {
+    background-color: lightgray;
+    width: 800px;
+    margin: 0px auto; 
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: gray;
+}
+.row {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.blue {
+    background-color: cornflowerblue;
+}
+.coral {
+    background-color: coral;
+    justify-content: space-evenly;
+}
+h4 {
+    color: darkgrey;
+}

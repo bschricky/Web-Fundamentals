@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.top {
+    height: 80px;
+    width: 1000px;
+    margin-bottom: 20px; 
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.nav-title {
+    margin-left: 20px;
+    font-size: 40px;
+}
+.subtitle {
+    font-size: 40px;
+    margin-bottom: 10px; 
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto; 
+}
+.row {
+    display: flex;
+}
+.col, .col-2 {
+    padding: 10px;
+    flex: 1;
+}
+.col-2 {
+    padding: 10px;
+    flex: 2;
+}
+.box, .user {
+    border: solid 4px black;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+.icon {
+    height: 180px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.user h2 {
+    margin: 25px;
+    font-size: 34px;
+}
+.user {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user a {
+    margin: 25px;
+    font-size: 28px;
+}
+.feed, .user {
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+.feed {
+    margin: 20px;
+}
+.header {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.like-btn {
+    padding: 5px 10px;
+    background-color: #fcd966;
+    color: black;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    margin-left: 20px;
+    cursor: pointer;
+}
+/* .user-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    height: 40px;
+} */
+
+.definition {
+    align-items: center;
+    margin: 20px;
+    font-size: 24px;
+    padding-right: 20px;
+}
+.add {
+    width: 250px;
+    height: 35px;
+    background-color: #93c47d;
+    color: black;
+    font-size: 22px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+}

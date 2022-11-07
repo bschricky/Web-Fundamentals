@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+.top {
+    background-color: #a0c6f9;
+    color: white;
+}
+.nav, .container {
+    width: 1000px;
+    margin: auto; 
+}
+.nav {
+    height: 100px;
+    margin-bottom: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav h1 {
+    font-size: 40px;
+}
+.nav-links {
+    width: 50%;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.nav a {
+    color: white; 
+    text-decoration: none;
+}
+.subtitle {
+    font-size: 24px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #999;
+}
+.subtitle label, .subtitle select {
+    font-size: 1.2rem;
+    padding: 5px;
+}
+.subtitle select {
+    width: 60px;
+}
+.container {
+    padding: 10px;
+}
+.row {
+    display: flex;
+    margin-bottom: 120px;
+}
+.forecast {
+    padding: 20px 0;
+    flex: 1;
+    border: solid 4px black;
+    text-align: center;
+    background-color: #eeeeee;
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+.forecast:last-child {
+    margin-right: 0; 
+}
+.forecast img {
+    height: 180px;
+    border-radius: 50%;
+    margin: 40px 0;
+}
+.forecast p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.temperatures {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.high, .low {
+    font-size: 26px;
+    font-weight: 900;
+}
+.high::after, .low::after {
+    content: "°";
+}
+.high {
+    color: #d0372c;
+}
+.low {
+    color: #2b78e5;
+}
+.footer {
+    position: fixed; 
+    bottom: 5px;
+    width: 70%;
+    margin-left: 220px;
+}
+.cookies {
+    border: solid 4px black;
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.text {
+    margin-left: 20px;
+}
+.btn {
+    background-color: #a0c6f9;
+    width: 120px;
+    font-size: 1.2rem;
+    box-shadow: 3px 3px black;
+}

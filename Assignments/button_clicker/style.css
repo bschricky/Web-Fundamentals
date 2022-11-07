@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.top {
+    height: 80px;
+    width: 1000px;
+    margin-bottom: 20px; 
+    color: black;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title {
+    margin-left: 20px;
+    font-size: 40px;
+}
+.search {
+    font-size: 20px;
+}
+.btn {
+    width: 70px;
+    height: 35px;
+    background-color: #48a3b8;
+    color: #ffff;
+    font-size: 16px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    margin-right: 20px;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto; 
+}
+.row {
+    display: flex;
+}
+.col, .col-2 {
+    padding: 10px;
+    flex: 1;
+}
+.col-2 {
+    padding: 10px;
+    flex: 2;
+}
+.box, .right {
+    border: solid 4px black;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.right h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+.right {
+    flex-wrap: wrap;
+}
+.left, .right {
+    padding: 30px;
+    margin-bottom: 20px; 
+}
+.left h1, 
+.left h3, 
+.left h4 {
+    margin: 20px 0px;
+}
+.definition {
+    align-items: center;
+    margin: 20px;
+    font-size: 24px;
+    padding-right: 20px;
+}
+.add {
+    width: 250px;
+    height: 35px;
+    background-color: #93c47d;
+    color: black;
+    font-size: 22px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+}
+.likes {
+    width: 100px;
+    height: 35px;
+    background-color: #fcd966;
+    color: black;
+    font-size: 16px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+}
