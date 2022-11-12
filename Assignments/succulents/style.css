@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container, .footer {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: Roboto, sans-serif;
+}
+#navbar-1, .nav-links {
+    height: 60px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#leaf-image {
+    background-color: #66d2b3;
+    border-radius: 10%;
+    margin-right: -30px;
+}
+#leaf-image, #cart-image {
+    height: 40px;
+}
+#search-bar {
+    width: 650px;
+    border-radius: 20px;
+    color: #bcbcbc;
+    padding: 10px;
+    border: 2px solid #bcbcbc;
+    background-color: #f6f6f6;
+}
+.nav-links, .nav-links a {
+    text-decoration: none;
+    list-style-type: none;
+    color:black;
+}
+#subtitle {
+    font-size: 24px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 6px solid black;
+}
+.row, .row-2 {
+    display: flex;
+}
+.col, .col-2 {
+    margin: 10px;
+    flex: 1;
+}
+.col-2 {
+    flex: 2;
+    color: white;
+    font-size: 1.5rem; 
+    background-color: #66d2b3;
+}
+#discover {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+    font-size: 14px;
+    text-align: center;
+}
+#discover h1 {
+    padding: 40px;
+}
+#changing-succulents {
+    height: 300px;
+}
+#aloe {
+    height: 200px;
+    width: 100%;
+}
+.col h3 {
+    color: white;
+    font-size: 1.2rem; 
+    background-color: #66d2b3;
+    margin-top: 12px;
+    padding: 30px;    
+}
+.row-2 {
+    background-color: #bff2ea;
+    height: 300px;
+    margin: 10px;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.plants {
+    font-size: 1rem;
+    text-align: center;
+}
+.plant-image {
+    border-radius: 50%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.footer {
+    position: fixed; 
+    bottom: 5px;
+}
+#cookies {
+    border: solid 4px black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+#cookies p {
+    font-size: 1.2rem;
+    margin: 20px;
+}
+.btn {
+    color: white;
+    background-color: #66d2b3;
+    width: 150px;
+    height: 40px;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    margin: 10px;
+}

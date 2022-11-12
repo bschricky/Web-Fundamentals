@@ -1,0 +1,79 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Basic button with shadow */
+.btn {
+    width: 70px;
+    height: 35px;
+    background-color: #48a3b8;
+    color: #ffff;
+    font-size: 16px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    margin-right: 20px;
+}
+
+/* Flexible colums x3 */
+.row {
+    display: flex;
+}
+.col {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: teal;
+}
+.col-2 {
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+    background-color: teal;
+}
+.col-3 {
+    flex: 3;
+    padding: 20px;
+    margin: 10px;
+    background-color: teal;
+}
+
+/* Basic nav bar full length */ 
+.nav {
+    background-color: #333333;
+    height: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Nav bar content formatting */
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.nav a {
+    color: white; 
+    text-decoration: none;
+}
+.nav-title {
+    margin-left: 20px;
+}
+
+/* Centered container for main content*/ 
+.container {
+    width: 1000px;
+    margin: 0 auto; 
+}
